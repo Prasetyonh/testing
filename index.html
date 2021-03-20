@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/icon.png">
     <title>CV || Prasetyo N.H</title>
 </head>
 <body>
@@ -12,19 +13,20 @@
     <!--sidebar-->
     <input type="checkbox" id="check">
     <div class="sidebar">
+        <label for="check" class="mobile"><img src="image/backicon.png" alt=""></label>
         <ul>
-            <li><a href="">Profile</a></li>
-            <li><a href="">Education</a></li>
-            <li><a href="">Contact</a></li>
+            <a href="#banner"><li>Home</li></a>
+            <a href="#profil"><li>Profile</li></a>
+            <a href="#sosmed"><li>Social Media</li></a>
         </ul>
     </div>
     <header>
         <div class="container">
-            <h1 >My Resume</h1>
+            <h1>My Resume</h1>
             <ul>
-                <li><a href=""><b>Profile</b></a></li>
-                <li><a href=""><b>Education</b></a></li>
-                <li><a href=""><b>Contact</b></a></li>
+                <li><a href="#banner"><b> Home</b></a></li>
+                <li><a href="#profil"><b> Profile</b></a></li>
+                <li><a href="#sosmed"><b> Social Media</b></a></li>
             </ul>
 
             <label for="check" class="mobile"><b>Menu </b></label>
@@ -33,9 +35,9 @@
         </div>
     </header>
 
-    <section class="banner">
+    <section id="banner">
         <div class="container">
-            <div class="banner-kiri">
+            <div id="banner-kiri">
                 <img src="image/fotoku.jpg">
             <p style="margin-bottom: 10px; font-size: 35px;"><b>Prasetyo Nur Hidayat</b></p>
             <p style="font-size: 25px;"><b>Hi...</b></p>
@@ -45,9 +47,8 @@
     </section>
 
 
-    <section class=profil> 
-        <div class="container"> 
-            <h3>Data Pribadi</h3>
+    <section id=profil> 
+        <h3>Data Pribadi</h3>
             <div class="data-diri">
                 <table>
                     <tr>
@@ -68,32 +69,123 @@
                     </tr>
                 </table>
             </div>
-        </div>
     </section>
 
-    <section class="education">
-        <div class="container">
-            <h3>Riwayat Pendidikan</h3>
+    <section id="education">
+        <h3>Riwayat Pendidikan</h3>
             <div class="pendidikan">
-                <div class="umy">
+                <a href="https://www.umy.ac.id/">
+                    <div class="umy">
                     <b>Universitas Muhammadiyah Yogyakarta</b>
                     <br>
-                    Teknologi Informasi
-                </div>
+                    <p style="color: black;">Teknologi Informasi</p>
+                    </div>
+                </a>
                 <br>
-                <div class="sma">
+                <a href="https://sman1klampok.sch.id/">
+                    <div class="sma">
                     <b>SMA N 1 Purwareja Klampok</b>
                     <br>
-                    MIPA
-                </div>
+                    <p style="color: black;">MIPA</p>
+                    </div>
+                </a>
             </div>
-        </div>
     </section>
+
+    <section class="skill">
+        <h3>Skills</h3>
+            <div class="col-skill-pc">
+                <table cellspacing=10>
+                    <tr>
+                        <td><img src="image/office.png" alt=""></td>
+                        <td><img src="image/ps.png" alt=""></td>
+                        <td><img src="image/html.png" alt=""></td>
+                        <td><img src="image/cssicon.png" alt=""></td>
+                        <td><img src="image/csharp.png" alt=""></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-skill-mobile">
+                <table>
+                    <tr>
+                        <td><img src="image/office.png" alt=""></td>
+                        <td><img src="image/ps.png" alt=""></td>
+                        <td><img src="image/html.png" alt=""></td>
+                        <td><img src="image/cssicon.png" alt=""></td>
+                        <td><img src="image/csharp.png" alt=""></td>
+                    </tr>
+                </table>
+            </div>
+    </section>
+
+    <section class="sertifikat">
+        <h3>Certificates</h3>
+            <div class="col-sertifikat">
+                <div class="certi1">
+                    <b>Web Application Development Fundamental with C#</b>
+                    <br>
+                    Inixindo Academy Program
+                </div>
+                <br>
+                <div class="certi2">
+                    <b>Software Development Fundamental with C#</b>
+                    <br>
+                    Inixindo Academy Program
+                </div>
+
+            </div>
+    </section>
+
+    <section class="motivasi">
+        <h3>Motivasi</h3>
+            <div class="col-motivasi">
+                <p>
+                    &nbsp; Motivasi saya masuk IT adalah karena saya tertarik dalam dunia teknologi, sehingga saya ingin mengembangkan minat dan bakat saya dalam dunia teknologi. Selain itu lapangan pekerjaan untuk lulusan IT kedepannya masih dibutuhkan karena teknologi akan terus berkembang.
+                </p>
+            </div>
+        
+    </section>
+
+    <section class="harapan">
+        <h3>Harapan</h3>
+            <div class="col-harapan">
+                <p>
+                    &nbsp; Harapan saya setelah lulus adalah dapat langsung bekerja di perusahaan besar sebagai posisi yang diinginkan.
+                </p>
+            </div>
+        
+    </section>
+
+    <section id="sosmed">
+        <h3>Social Media</h3>
+            <div class="col-sosmed">
+                <table> 
+                    <tr></tr>
+                        <td>
+                            <a href="https://www.instagram.com/prasetyonh_/">
+                                <img src="image/igicon.png" alt="">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.facebook.com/prasetyonurhidayat8/">
+                                <img src="image/fbicon.png" alt="">
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://twitter.com/Prasetyonh_">
+                                <img src="image/twittericon.png" alt="">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    </section>
+
+    <footer>
+        <p>Prasetyo Nur Hidayat @ 2021</p>
+    </footer>
+
+
+
 </body>
-<!--
-    <li><img src="image/nameicon.png" align=center> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prasetyo Nur Hidayat</li>
-<li><img src="image/birthicon.png"align=center>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Banjarnegara, 8 Agustus 2001</li>
-<li><img src="image/addressicon.png"align=center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Banjarnegara, Jawa Tengah, Indonesia</li>
-<li><img src="image/emailicon.png"align=center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;prasetyonurhidayat@gmail.com<li>
--->
 </html>
